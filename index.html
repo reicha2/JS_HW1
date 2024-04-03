@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Hello World</h1>
+    <img src="img/types-of-guitar-featured-image.jpg" alt=""
+        style="border-radius: 60px 60px 60px 60px; width: 700px; height: auto;">
+
+    <script>
+        var amount = 100
+        var wow = amount - 2
+        var MyName = "Aviad Reich"
+        var Love_music = true
+        var Pat_guitar = "Ibanez PM Signature"
+        var result_a = multiply(4, 3);
+        var result_b = multiply(5, 6);
+        let student_1 = Full_Name("Eli", "Cohen");
+        let student_2 = Full_Name("Avi", "Bitter");
+        const x = 2
+        const y = 9
+        const z = x + y
+
+        console.log("Aviad");
+        console.log(amount);
+        console.log(MyName);
+        console.log(wow);
+        console.log(Love_music);
+        console.log(Pat_guitar);
+
+        function AviPlays(MyName, Pat_guitar, Love_music) {
+            return "Is it true that " + MyName + " played on the " + Pat_guitar + " guitar? Yup, that's " + Love_music;
+        }
+
+        var message = AviPlays(MyName, Pat_guitar, Love_music);
+
+        alert(message);
+
+        function multiply(a, b) {
+            return a * b;
+        }
+
+
+        console.log(result_a);
+        console.log(result_b);
+
+        function Full_Name(str1, str2) {
+            return str1 + " " + str2;
+        }
+
+        console.log(student_1 + ", " + student_2);
+
+
+        console.log(z);
+
+        function myFunction() {
+            console.log("Hello World!");
+            alert("hello world?");
+        }
+
+        function Aviadi() {
+            alert("Hi Aviad Reich! How are you today?")
+        }
+        myFunction();
+        Aviadi();
+
+        //  ChatGpt:
+        // Define a function called calculateRectangleArea
+        function calculateRectangleArea(length, width) {
+            // Calculate the area of the rectangle using the formula: area = length * width
+            const area = length * width;
+            // Return the calculated area
+            return area;
+        }
+
+        // Test the calculateRectangleArea function with different values
+        const length = 5;
+        const width = 3;
+        const area = calculateRectangleArea(length, width);
+
+        // Print the calculated area to the console
+        console.log("The area of the rectangle is: " + area); // Output: The area of the rectangle is: 15
+
+
+
+
+
+    </script>
+</body>
+
+</html>
